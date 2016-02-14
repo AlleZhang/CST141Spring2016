@@ -1,8 +1,0 @@
-package caesarCipher;
-
-public class Cipher {
-
-	public static void main(String[] args) {
-		System.out.println(CaesarCipher.cipher("FIRST LEGION ATTACK EAST FLANK!", 23));
-	}
-}
