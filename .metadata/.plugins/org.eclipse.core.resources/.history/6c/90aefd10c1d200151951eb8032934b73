@@ -1,0 +1,12 @@
+package caesarCipher;
+
+public class CaesarCipher {
+	
+	public static void cipher(String input, int key) {
+		StringBuilder encrypted = new StringBuilder(input);
+		String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		String shiftedAlphabet = alphabet.substring(key) + alphabet.substring(0,  key);
+		System.out.println(shiftedAlphabet);
+	}
+
+}

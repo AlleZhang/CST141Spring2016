@@ -1,0 +1,9 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		DecoratorAbstract da = new DecoratorAbstract("John", 3.0, "q2");
+		da.doJob();
+	
+	}
+}

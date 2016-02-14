@@ -1,0 +1,10 @@
+package caesarCipher;
+
+public class Cipher {
+
+	public static void main(String[] args) {
+		CaesarCipher.cipher("ABC", 4);
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class DecoratorAbstract extends Student{
+	
+	public DecoratorAbstract(String name, double gpa, String id) {
+		super(name, gpa, id);
+	}
+
+	private Student s;
+	
+	public void setStudent(Student s) {
+		this.s = s;
+	}
+	
+	public void doJob() {
+		s.doJob();
+		System.out.println("Decorator doing more job.");
+	}
+
+}
